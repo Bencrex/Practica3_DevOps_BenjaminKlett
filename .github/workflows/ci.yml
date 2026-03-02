@@ -19,6 +19,7 @@ jobs:
         run: pip install uv
 
       - name: Install dependencies
+        run: uv snyc
 
       - name: Install ruff and mypy
         run: pip install ruff mypy
